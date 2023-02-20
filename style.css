@@ -85,3 +85,24 @@ button {
     background-color: #3882F6;
     color: white;
 }
+
+.random-information-tiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.random-information-tiles > div{
+    width: 150px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.container  {
+    text-align: center;
+}
+
+.tile {
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+}
