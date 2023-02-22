@@ -92,17 +92,50 @@ button {
     justify-content: center;
 }
 
-.random-information-tiles > div{
+.random-information-tiles > div {
     width: 150px;
     margin-left: 16px;
     margin-right: 16px;
 }
 
-.container  {
+.container {
     text-align: center;
 }
 
 .tile {
     border: 5px solid #3882F6;
     border-radius: 8px;
+}
+
+.container.random{
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.container.quote{
+    background-color: #E5E7EB;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text{
+    width: 650px;
+    text-align: start;
+    font-weight: lighter;
+}
+
+i {
+    font-size: 28px;
+}
+
+p.attribute{
+    text-align: end;
+    font-weight: bold;
+}
+
+.attribute-container{
+    align-self: flex-end;
 }
