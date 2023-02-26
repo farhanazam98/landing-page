@@ -139,3 +139,39 @@ p.attribute{
 .attribute-container{
     align-self: flex-end;
 }
+
+.container.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-to-action-box {
+    background-color: #3882F6;
+    width: fit-content;
+    padding: 20px 40px;
+    border-radius: 5px;
+    padding: 40px 100px;
+    margin: 80px auto;
+}
+
+.call-to-action-container{
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    color: white;
+}
+
+.call-to-action-button{
+    display: flex;
+    align-items: center;
+    margin: 0 60px;
+}
+
+.call-to-action-button > button{
+    background-color: #3882F6;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
