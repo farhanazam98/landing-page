@@ -175,3 +175,9 @@ p.attribute{
     border: 1px solid white;
     border-radius: 5px;
 }
+
+.copyright{
+    background-color: #1F2937;
+    padding: 40px 80px;
+    color: white;
+}
